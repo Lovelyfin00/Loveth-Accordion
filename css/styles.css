@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    min-height: 100vh;
+}
+/* Accordion section styling */
+#accordion-section{
+    margin-top: 120px !important;
+}
+.accordion-box{
+    border-radius: 15px;
+}
+.woman-img{
+    bottom: -5px; 
+    left: 12%;
+}
+.pattern{
+    bottom: -28px;
+    left: 10%;
+}
+.text-color{
+    color: hsl(237, 12%, 33%) !important;
+}
+.accordion-button:focus{
+    font-weight: bold;   
+}
+.accordion-button:hover{
+    color: hsl(14, 88%, 65%) !important;
+}
+
+@media screen and (min-width:425px) and (max-width:765px){
+    #accordion-section{
+        margin-top: 200px !important;
+    }
+    .woman-img{
+        bottom: -20px !important;
+    }
+    .pattern{
+        bottom: -40px !important;
+        left: 12% !important;
+    }
+}
+
+@media screen and (min-width:765px) and (max-width:992px) {
+    #accordion-section{
+        margin-top: 300px !important;
+    }
+    .woman-img{
+        bottom: -30px !important;
+    }
+    .pattern{
+        bottom: -50px !important;
+        left: 12% !important;
+    }
+    .faq-text{
+        margin-top: 20px !important;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .accordion-box{
+        width: 80% !important;
+        margin: auto;
+    }
+    .faq-text{
+        margin-top: 30px !important;
+    }
+    .woman-img{
+        width: 100% !important;
+        top: 5px !important;
+        left: -27% !important;
+    }
+    .pattern{
+        display: none !important;
+    }
+    .pattern-desktop{
+        display: unset !important;
+        width: 100% !important;
+        bottom: -360px !important;
+        left: -22% !important;
+    }
+}

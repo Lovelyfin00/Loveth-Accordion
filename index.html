@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loveth's Accordion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section id="accordion-section" class="pt-5 pb-5">
+        <div class="container">
+            <div class=" accordion-box pb-5 bg-white">
+                <div class="row">
+                <div class="col-lg-6 pt-5 pb-5">
+                    <div class="img-section d-flex justify-content-center align-items-center position-relative pt-3">
+                        <div class="box-div d-none">
+                            <img src="img/illustration-box-desktop.svg" alt="box" class="img-fluid">
+                        </div>
+                        <div class="woman-div">
+                            <img src="img/illustration-woman-online-mobile.svg" alt="woman" class="woman-img img-fluid w-75 position-absolute">
+                            <img src="img/bg-pattern-mobile.svg" alt="" class="pattern img-fluid w-75 position-absolute">
+                            <img src="img/bg-pattern-desktop.svg" alt="" class="img-fluid d-none pattern-desktop position-absolute">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="text-center fw-bold text-color border-0 faq-text">FAQ</h3>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="accordion ms-2 me-2 accordion-flush" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header border-0" id="headingOne">
+                                <button class="accordion-button shadow-none bg-white text-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  How many Team members can I invite?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body text-color">
+                                  No more than 2GB. All files in your account must fit your allocated storage space.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button text-color collapsed shadow-none bg-white text-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  What is the maximum file upload size?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body text-color">
+                                    No more than 2GB. All files in your account must fit your allocated storage space.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button text-color collapsed shadow-none bg-white text-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  How do I reset my password?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body text-color">
+                                    No more than 2GB. All files in your account must fit your allocated storage space.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button text-color collapsed shadow-none bg-white text-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Can I cancel my subscription?
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body text-color">
+                                      No more than 2GB. All files in your account must fit your allocated storage space.
+                                  </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                  <button class="accordion-button text-color collapsed shadow-none bg-white text-color" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Do you provide additional supports?
+                                  </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body text-color">
+                                      No more than 2GB. All files in your account must fit your allocated storage space.
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
